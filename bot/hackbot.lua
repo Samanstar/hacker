@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '4.9'
+VERSION = '99'
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -228,11 +228,11 @@ function create_config( )
 An advance Administration bot based on Telegram-CLI written in lua
 
 Admins
-@Ferisystem [Foounder]
-@Mahdi17177 [Dev]
-@mehdi_killer78 [Wool]
-@@Samanbeeza [Wool]
-Erfan 🎭TÅℜD🎭[ [Wool]
+@Ferisystem 🎭TÅℜD🎭 [Foounder]
+@Mahdi17177 🎭TÅℜD🎭 [Dev]
+@mehdi_killer78 🎭TÅℜD🎭 [Wool]
+@Samanbeeza 🎭TÅℜD🎭 [Wool]
+Erfan 🎭TÅℜD🎭 [Wool]
 
 
 Special thanks to
