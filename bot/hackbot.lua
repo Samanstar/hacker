@@ -241,67 +241,67 @@ no one
     help_text = [[
 Commands list :
 
-!کیک [username|id]
+kick [username|id]
 
-!ban [ username|id]
+ban [ username|id]
 
-!unban [id]
+unban [id]
 
-!who
+who
 
-!modlist
+modlist
 
-!promote [username]
+promote [username]
 
-!demote [username]
+demote [username]
 
-!kickme
+kickme
 
-!about
+about
 
-!setphoto
+setphoto
 
-!setname [name]
+setname [name]
 
-!rules
+rules
 
-!id
+id
 
-!help
+help
 
-!lock [member|name|bots]
+lock [member|name|bots]
 
-!unlock [member|name|photo|bots]
+unlock [member|name|photo|bots]
 
-!set rules <text>
+set rules <text>
 
-!set about <text>
+set about <text>
 
-!settings
+settings
 
-!newlink
+newlink
 
-!link
+link
 
-!owner
+owner
 
-!setowner [id]
+setowner [id]
 
-!setflood [value]
+setflood [value]
 
-!stats
+stats
 
-!save [value] <text>
+save [value] <text>
 
-!get [value]
+get [value]
 
-!clean [modlist|rules|about]
+clean [modlist|rules|about]
 
-!res [username]
+res [username]
 
-!log
+log
 
-!banlist
+banlist
 
 ]]
 
