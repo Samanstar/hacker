@@ -220,132 +220,88 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {139946685,112524566,175582173,0,tonumber(our_id)},--Sudo users
+    sudo_users = {139946685,112524566,175582173,103788804,172929411,153521519,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TeleTard v4.9
+    about_text = [[HackerGp v4.9
 An advance Administration bot based on Telegram-CLI written in lua
 
 Admins
-@ferisystem [Founder]
-@mahdi17177 [Manager & Developer]
+@Ferisystem [Foounder]
+@Mahdi17177 [Dev]
+@mehdi_killer78 [Wool]
+@@Samanbeeza [Wool]
+Erfan 🎭TÅℜD🎭[ [Wool]
+
 
 Special thanks to
-PeymanKhanas
-mahdimasih
-
-our bots for help this bot
-@TeleTard_Supplement_Bot for say hello & bye to members
-@TeleTard_Helper_Bot for help you to work with TeleTard
-Our channels
-@TeleTardCh [Persian]
+no one
 ]],
     help_text = [[
 Commands list :
 
-!kick [username|id]
-You can also do it by reply
+!کیک [username|id]
 
 !ban [ username|id]
-You can also do it by reply
 
 !unban [id]
-You can also do it by reply
 
 !who
-Members list
 
 !modlist
-Moderators list
 
 !promote [username]
-Promote someone
 
 !demote [username]
-Demote someone
 
 !kickme
-Will kick user
 
 !about
-Group description
 
 !setphoto
-Set and locks group photo
 
 !setname [name]
-Set group name
 
 !rules
-Group rules
 
 !id
-return group id or user id
 
 !help
 
 !lock [member|name|bots]
-Locks [member|name|bots] 
 
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
 
 !set rules <text>
-Set <text> as rules
 
 !set about <text>
-Set <text> as about
 
 !settings
-Returns group settings
 
 !newlink
-create/revoke your group link
 
 !link
-returns group link
 
 !owner
-returns group owner id
 
 !setowner [id]
-Will set id as owner
 
 !setflood [value]
-Set [value] as flood sensitivity
 
 !stats
-Simple message statistics
 
 !save [value] <text>
-Save <text> as [value]
 
 !get [value]
-Returns text of [value]
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
 
 !res [username]
-returns user id
-"!res @username"
 
 !log
-will return group logs
 
 !banlist
-will return group ban list
-
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
 
 ]]
 
